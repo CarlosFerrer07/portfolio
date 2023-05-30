@@ -59,16 +59,16 @@ if (count($_POST) > 0) {
             <div class="collapse navbar-collapse" id="opciones">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#aboutMe">About</a>
+                        <a class="nav-link" href="#goAbout">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Skills">Skills</a>
+                        <a class="nav-link" href="#mySkills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Projects">Projects</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Contact">Contact</a>
+                        <a class="nav-link" href="#saltoForm">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -76,7 +76,7 @@ if (count($_POST) > 0) {
     </header>
     <main>
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center" id="goAbout">
                 <div class="col-lg-3">
                     <img src="assets/images/IMAGEN CARLOS.jpg" class="img-thumbnail" alt="myFace">
                 </div>
@@ -95,7 +95,7 @@ if (count($_POST) > 0) {
 
     </main>
 
-    <section>
+    <section id="mySkills">
         <div class="container">
             <div class="row text-center">
                 <div class="col">
@@ -130,9 +130,9 @@ if (count($_POST) > 0) {
         </div>
     </section>
 
-    <section id="projects">
+    <section>
         <div class="container">
-            <div class="row text-center">
+            <div class="row text-center" id="projects">
                 <div class="col">
                     <h1>Proyects</h1>
                 </div>
@@ -177,7 +177,7 @@ if (count($_POST) > 0) {
             </div>
         </div>
         <div class="container formulario d-flex justify-content-center align-items-center">
-            <div class="row">
+            <div class="row" id="saltoForm">
                 <div class="col-lg">
                     <form action="" method="post">
                         <label for="nombre">Nombre:</label>

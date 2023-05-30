@@ -51,7 +51,7 @@ if (count($_POST) > 0) {
             </button>
 
             <!-- logo -->
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.php">
                 <img src="assets/icons/logo_carlos.png" width="40" height="40" alt="logo_Carlos">
             </a>
 
@@ -203,7 +203,10 @@ if (count($_POST) > 0) {
                 <div class="col-lg-4">
                     <p>My Skills</a> icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
                 </div>
-                <div class="col-lg-4 offset-lg-4">
+                <div class="col-lg-4">
+                    <p>Go to my <a href="https://github.com/CarlosFerrer07" target="_blank">github</a></p>
+                </div>
+                <div class="col-lg-4">
                     <h3>Carlos Ferrer Martínez</h3>
                     <p>Todos los derechos reservados &copy; 2023</p>
                 </div>

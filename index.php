@@ -204,9 +204,9 @@ if (count($_POST) > 0) {
                     <p>My Skills</a> icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
                 </div>
                 <div class="col-lg-4 offset-lg-4">
-                <h3>Carlos Ferrer Martínez</h3>
-                <p>Todos los derechos reservados &copy; 2023</p>
-            </div>
+                    <h3>Carlos Ferrer Martínez</h3>
+                    <p>Todos los derechos reservados &copy; 2023</p>
+                </div>
             </div>
         </div>
     </footer>

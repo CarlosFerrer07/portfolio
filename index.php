@@ -160,7 +160,7 @@ if (count($_POST) > 0) {
                             <p class="card-text">This is my personal portfolio where I apply my knowledge of Bootstrap,
                                 HTML, and CSS to showcase some of the skills I acquired during my first year of web
                                 development.</p>
-                            <a href="https://github.com/CarlosFerrer07/portfolio/tree/master" class="btn btn-primary">See Code</a>
+                            <a href="https://github.com/CarlosFerrer07/portfolio/tree/master" target="_blank" class="btn btn-primary">See Code</a>
                         </div>
                     </div>
                 </div>

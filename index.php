@@ -148,7 +148,7 @@ if (count($_POST) > 0) {
                             <p class="card-text">Phoneswap is the first project I have worked on with my classmates,
                                 simulating what it would be like to undertake a real-life project. It consists of a
                                 mobile phone selling website.</p>
-                            <a href="https://github.com/mamoro02/PhoneSwap-PI.git" class="btn btn-primary">See Code</a>
+                            <a href="https://github.com/mamoro02/PhoneSwap-PI.git"  target="_blank" class="btn btn-primary">See Code</a>
                         </div>
                     </div>
                 </div>

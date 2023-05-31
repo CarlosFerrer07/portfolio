@@ -39,6 +39,7 @@ if (count($_POST) > 0) {
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
 </head>
 
@@ -52,7 +53,7 @@ if (count($_POST) > 0) {
 
             <!-- logo -->
             <a class="navbar-brand" href="index.php">
-                <img src="assets/icons/logo_carlos.png" width="40" height="40" alt="logo_Carlos">
+                <img src="assets/icons/logoCarlos.png" width="40" height="40" alt="logo_Carlos">
             </a>
 
             <!-- enlaces -->

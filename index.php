@@ -41,6 +41,7 @@ if (count($_POST) > 0) {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -77,7 +78,7 @@ if (count($_POST) > 0) {
     </header>
     <main>
         <div class="container">
-            <div class="row align-items-center" id="goAbout">
+            <div class="row align-items-center" id="goAbout" data-aos="fade-right">
                 <div class="col-lg-3">
                     <img src="assets/images/IMAGEN CARLOS.jpg" class="img-thumbnail" alt="myFace">
                 </div>
@@ -104,7 +105,7 @@ if (count($_POST) > 0) {
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container" data-aos="fade-left">
             <div class="row">
                 <div class="col-lg col-sm-6">
                     <img src="assets/icons/icons8-html-240.svg" alt="html">
@@ -139,7 +140,7 @@ if (count($_POST) > 0) {
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container" data-aos="fade-left">
             <div class="row">
                 <div class="col-lg-4 col-sm-12">
                     <div class="card text-center" style="width:400px">
@@ -149,7 +150,7 @@ if (count($_POST) > 0) {
                             <p class="card-text">Phoneswap is the first project I have worked on with my classmates,
                                 simulating what it would be like to undertake a real-life project. It consists of a
                                 mobile phone selling website.</p>
-                            <a href="https://github.com/mamoro02/PhoneSwap-PI.git"  target="_blank" class="btn btn-primary">See Code</a>
+                            <a href="https://github.com/mamoro02/PhoneSwap-PI.git" target="_blank" class="btn btn-primary">See Code</a>
                         </div>
                     </div>
                 </div>
@@ -179,7 +180,7 @@ if (count($_POST) > 0) {
         </div>
         <div class="container formulario d-flex justify-content-center align-items-center">
             <div class="row" id="saltoForm">
-                <div class="col-lg">
+                <div class="col-lg" data-aos="fade-up" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <form action="" method="post">
                         <label for="nombre">Nombre:</label>
                         <input type="text" id="nombre" name="name" required><br>
@@ -216,6 +217,10 @@ if (count($_POST) > 0) {
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
